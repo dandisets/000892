@@ -7,7 +7,7 @@ access:
   status: dandi:EmbargoedAccess
 assetsSummary:
   numberOfBytes: 0
-  numberOfFiles: 0
+  numberOfFiles: 1
   schemaKey: AssetsSummary
 citation: Deconstructing the sertonin system in the mouse brain (2024). (Version draft)
   [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
@@ -18,7 +18,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-02-08T20:47:58.594261+00:00'
-datePublished: '2024-02-08T20:48:38.420530+00:00'
+datePublished: '2024-02-10T02:31:25.385590+00:00'
 description: Behavioral and physiology data
 doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000892/draft
@@ -27,13 +27,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000892/versions/draft/assets/
 name: Deconstructing the sertonin system in the mouse brain
 publishedBy:
-  endDate: '2024-02-08T20:48:38.420530+00:00'
-  id: urn:uuid:998cf828-7dd6-4ac1-9966-4e4ed3c5243c
+  endDate: '2024-02-10T02:31:25.385590+00:00'
+  id: urn:uuid:9a3b4bab-e6a6-475d-98f5-f30546c62391
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-08T20:48:38.420530+00:00'
+  startDate: '2024-02-10T02:31:25.385590+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:4d49af24-fe39-49bc-98df-2ee56bf019a6
+  - id: urn:uuid:ed3038b8-8101-4989-a81d-ed1649f0fb77
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software

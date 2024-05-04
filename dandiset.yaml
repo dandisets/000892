@@ -2,15 +2,36 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000892
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 25198475
   numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Deconstructing the sertonin system in the mouse brain (2024). (Version draft)
-  [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - ElectrodeGroup
+citation: Deconstructing the serotonin system in the mouse brain (2024). (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000892/draft
 contributor:
 - awardNumber: 1 RF1 NS 131987-01
   name: National Institutes of Health (NIH)
@@ -18,28 +39,22 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-02-08T20:47:58.594261+00:00'
-datePublished: '2024-02-10T02:31:25.385590+00:00'
 description: Behavioral and physiology data
-doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000892/draft
 identifier: DANDI:000892
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000892/versions/draft/assets/
-name: Deconstructing the sertonin system in the mouse brain
-publishedBy:
-  endDate: '2024-02-10T02:31:25.385590+00:00'
-  id: urn:uuid:9a3b4bab-e6a6-475d-98f5-f30546c62391
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-02-10T02:31:25.385590+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:ed3038b8-8101-4989-a81d-ed1649f0fb77
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+name: Deconstructing the serotonin system in the mouse brain
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000892/draft
 version: draft
+wasGeneratedBy: []

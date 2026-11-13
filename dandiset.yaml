@@ -5,9 +5,9 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
 about: []
 access:
-- embargoedUntil: '2028-03-10'
+- embargoedUntil: '2026-11-13'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 265043992292
-  numberOfFiles: 2127
-  numberOfSubjects: 170
+  numberOfBytes: 264947414182
+  numberOfFiles: 2125
+  numberOfSubjects: 169
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
